@@ -44,7 +44,7 @@ def print_field(field: Field) -> None:
     elif field.type == "Date":
         print_date_field(field.name)
     elif field.type == "Double":
-        print_date_field(field.name)
+        print_double_field(field.name)
 
 
 def print_fields(class_fields: [Field]) -> None:
